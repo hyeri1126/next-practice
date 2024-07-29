@@ -1,0 +1,47 @@
+#1. 메인페이지 렌더링
+
+#2. 기본 라우팅
+    localhost:3000/about , localhost:3000/profile 페이지 만들기
+
+
+#3. 중첩 라우팅(Nested)
+    localhost:3000/blog -> Blog Main page
+    localhost:3000/blog/cookie
+    localhost:3000/blog/milk
+
+#4. 동적 라우팅(Dynamic)
+    localhost:3000/products -> Product1, Product2, Product3
+
+#5. 중첩 동적 라우팅  
+    localhost:3000/products/1 -> Product 1 details
+    localhost:3000/producst/1/reviews/1 -> Review 1 for product 1
+
+#7. 404 페이지 커스터마이징 
+Next.js에서 제공하는 기본 404 페이지가 아닌 별도의 디자인으로 커스터마이징하고 싶을 때 -> not-found.jsx
+
+#8.컴포넌트를 구분하여 렌더링하기 - File Colocation
+
+#9. utils/page.jsx 생성 후 테스트
+localhost:3000/_utils로 접근 시 404 error
+
+    숨김 폴더 활용 예
+    1. 범용적인 라우팅 로직이 있엇어 별도의 유틸 함수로 빼고 싶을 때
+    2. 프로젝트 내부에서만 관리되는 파일 보관 시
+
+#10. 라우트 그룹핑하기 
+
+forgot-password/
+register/
+logout/ 과 같이 인증과 관련된 폴더들이 흩어져있으면 관리가 복잡해짐.
+
+
+#11. 페이지 레이아웃 관리하기(layout.jsx)
+
+
+#12. 중첩 레이아웃 구성하기
+
+#14. 메타데이터 관리하기
+
+#15. <Link> 컴포넌트를 통해 페이지 네비게이션하기
+
+#16. 활성 링크 적용하기 
